@@ -10,7 +10,7 @@ ActionMailer::Base.smtp_settings = {
     :authentication => 'plain',
     :user_name => ENV['SENDGRID_USERNAME'],
     :password => ENV['SENDGRID_PASSWORD'],
-    :domain => 'heroku.com',
+    :domain => 'young-falls-34513.heroku.com',
     :enable_startstls_auto => true
 
     
